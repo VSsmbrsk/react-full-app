@@ -1,0 +1,204 @@
+{
+  "react": [
+    {
+      "id": "1",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the first card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 1,
+      "completed": true,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "2",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the second card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 2,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "3",
+      "question": "Lorem ipsum dolor ooon sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the third card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 3,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "4",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the first card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 1,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "5",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the second card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 2,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "6",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the third card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 1,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "7",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the first card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 1,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "8",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the second card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 2,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "9",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the third card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 3,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "10",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the first card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 1,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "11",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the second card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 2,
+      "completed": false,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "12",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "description": "This is a sample description for the third card.",
+      "resources": [
+        "https://react.dev"
+      ],
+      "level": 3,
+      "completed": true,
+      "editDate": "2024-06-01T12:00:00Z"
+    },
+    {
+      "id": "6e2e",
+      "question": "default value",
+      "answer": "default value",
+      "description": "default value",
+      "resources": [
+        "default value"
+      ],
+      "level": 2,
+      "completed": false
+    },
+    {
+      "id": "7816",
+      "question": "wfw",
+      "answer": "wqfw",
+      "description": "2f32",
+      "resources": [
+        "2f2"
+      ],
+      "level": 1,
+      "completed": false
+    },
+    {
+      "id": "93b9",
+      "question": "d",
+      "answer": "d",
+      "description": "d",
+      "resources": [
+        "d"
+      ],
+      "level": 2,
+      "completed": false
+    },
+    {
+      "id": "21c3",
+      "question": "3t3y",
+      "answer": "3y3",
+      "description": "3y",
+      "resources": [
+        "3y"
+      ],
+      "level": 3,
+      "completed": false
+    },
+    {
+      "id": "97e8",
+      "question": "ew",
+      "answer": "dq",
+      "description": "qdq",
+      "resources": [
+        "dq"
+      ],
+      "level": 1,
+      "completed": false
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

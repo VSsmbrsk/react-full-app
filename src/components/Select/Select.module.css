@@ -1,0 +1,10 @@
+.select {
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: var(--card-bg-color);
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  flex-grow: 1;
+}
