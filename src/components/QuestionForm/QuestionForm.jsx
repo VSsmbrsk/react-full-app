@@ -14,6 +14,7 @@ export const QuestionForm = ({
 
   return (
     <form action={dispatchAction} className={cls.form}>
+      <input type="text" name="questionId" defaultValue={formState.id} hidden />
       <div className={cls.formControl}>
         <label htmlFor="questionField">Question:</label>
         <textarea

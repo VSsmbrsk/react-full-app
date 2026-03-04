@@ -2,27 +2,27 @@
   "react": [
     {
       "id": "1",
-      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "question": "Lorem dolorum e",
       "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
       "description": "This is a sample description for the first card.",
       "resources": [
         "https://react.dev"
       ],
       "level": 1,
-      "completed": true,
-      "editDate": "2024-06-01T12:00:00Z"
+      "completed": false,
+      "editDate": "04.03.2026, 12:28"
     },
     {
       "id": "2",
-      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
+      "question": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremqu",
       "answer": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, doloremque?",
       "description": "This is a sample description for the second card.",
       "resources": [
         "https://react.dev"
       ],
-      "level": 2,
+      "level": 3,
       "completed": false,
-      "editDate": "2024-06-01T12:00:00Z"
+      "editDate": "04.03.2026, 12:29"
     },
     {
       "id": "3",
@@ -143,15 +143,6 @@
       "level": 3,
       "completed": true,
       "editDate": "2024-06-01T12:00:00Z"
-    },
-    {
-      "id": "988d",
-      "question": "Test question",
-      "answer": "It is short test answer",
-      "description": "It is description",
-      "resources": [],
-      "level": 1,
-      "completed": false
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
