@@ -1,5 +1,7 @@
 export const API_URL = "http://localhost:3001";
 
+export const AUTH_STORAGE = "reactCardLogin";
+
 export const sortOptions = [
   { value: "_sort=level", content: "Level ASC" },
   { value: "_sort=-level", content: "Level DESC" },

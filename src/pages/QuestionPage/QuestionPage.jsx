@@ -1,18 +1,21 @@
 import cls from "./QuestionPage.module.css";
-import { useNavigate, useParams } from "react-router-dom";
+import { Navigate, useLocation, useNavigate, useParams } from "react-router-dom";
 import { Button } from "../../components/Button";
 import { Badge } from "../../components/Badge";
 import { useEffect, useId, useState } from "react";
 import { useFetch } from "../../hooks/useFetch";
 import { API_URL } from "../../constants";
 import { Loader, SmallLoader } from "../../components/Loader";
+import { useAuth } from "../../hooks/useAuth";
 
 export const QuestionPage = () => {
   const navigate = useNavigate();
+  const location = useLocation();
   const checkboxId = useId();
   const [isChecked, setIsChecked] = useState(false);
   const [card, setCard] = useState(null);
   const { id } = useParams();
+  const { isAuth } = useAuth();
 
   const levelVariant = () =>
     card.level === 1 ? "primary" : card.level === 2 ? "warning" : "alert";
@@ -48,6 +51,16 @@ export const QuestionPage = () => {
     setIsChecked(!isChecked);
     updateCard(!isChecked);
   };
+
+  if (!isAuth) {
+    return (
+      <Navigate
+        to="/forbidden"
+        state={{ from: location.pathname }}
+        replace
+      />
+    );
+  }
 
   return (
     <>
@@ -99,12 +112,14 @@ export const QuestionPage = () => {
             {isCardUpdating && <SmallLoader />}
           </label>
 
-          <Button
-            onClick={() => navigate(`/editquestion/${card.id}`)}
-            isDisabled={isCardUpdating}
-          >
-            Edit question
-          </Button>
+          {isAuth && (
+            <Button
+              onClick={() => navigate(`/editquestion/${card.id}`)}
+              isDisabled={isCardUpdating}
+            >
+              Edit question
+            </Button>
+          )}
           <Button onClick={() => navigate("/")} isDisabled={isCardUpdating}>
             Back
           </Button>

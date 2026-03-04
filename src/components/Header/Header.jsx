@@ -2,9 +2,17 @@ import cls from "./Header.module.css";
 import { Button } from "../Button";
 import reactLogo from "../../assets/react.svg";
 import { useNavigate } from "react-router-dom";
+import { useAuth } from "../../hooks/useAuth";
+import { AUTH_STORAGE } from "../../constants";
 
 export const Header = () => {
   const navigate = useNavigate();
+  const { isAuth, setIsAuth } = useAuth();
+
+  const loginHandler = () => {
+    localStorage.setItem(AUTH_STORAGE, !isAuth);
+    setIsAuth(!isAuth);
+  };
 
   return (
     <header className={cls.header}>
@@ -13,10 +21,14 @@ export const Header = () => {
         <span>ReactCards</span>
       </p>
       <div className={cls.headerButtons}>
-        <Button onClick={() => navigate("/addquestion")} isDisabled={false}>
-          Add
+        {isAuth && (
+          <Button onClick={() => navigate("/addquestion")} isDisabled={false}>
+            Add
+          </Button>
+        )}
+        <Button isActive={!isAuth} onClick={loginHandler}>
+          {isAuth ? "Logout" : "Login"}
         </Button>
-        <Button isActive>Login</Button>
       </div>
     </header>
   );
